@@ -137,20 +137,6 @@ observable, and maintainable by someone other than me.
      Keep the table structure — it renders as clean side-by-side cards. -->
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
-
-### 🔧 Cloud Deployment Pipeline
-Infrastructure-as-code setup provisioning a multi-environment cloud
-deployment pipeline with automated rollback on failed health checks.
-
-`Terraform` `AWS` `GitHub Actions`
-
-<a href="https://github.com/YOUR-USERNAME/REPO-NAME">
-<img src="https://img.shields.io/badge/View%20Project-EF93C4?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-<td width="50%" valign="top">
 
 ### 📦 Internal Developer Platform
 A lightweight internal developer platform providing self-service
@@ -189,12 +175,12 @@ using an LLM, reducing initial triage time.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&hide_border=true&theme=transparent&title_color=FF69B4&icon_color=EF93C4&text_color=4A4A4A&ring_color=F8BBD0" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-USERNAME&hide_border=true&background=00000000&ring=EF93C4&fire=FF69B4&currStreakLabel=EF93C4&sideLabels=4A4A4A&currStreakNum=4A4A4A&sideNums=4A4A4A&dates=9E9E9E" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=akanksharaut2662-rgb&show_icons=true&hide_border=true&theme=transparent&title_color=FF69B4&icon_color=EF93C4&text_color=4A4A4A&ring_color=F8BBD0" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=akanksharaut2662-rgb&hide_border=true&background=00000000&ring=EF93C4&fire=FF69B4&currStreakLabel=EF93C4&sideLabels=4A4A4A&currStreakNum=4A4A4A&sideNums=4A4A4A&dates=9E9E9E" />
 
 <br/>
 
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-USERNAME&hide_border=true&bg_color=00000000&color=4A4A4A&line=FF69B4&point=EF93C4&area=true&area_color=F8BBD0" />
+<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=akanksharaut2662-rgb&hide_border=true&bg_color=00000000&color=4A4A4A&line=FF69B4&point=EF93C4&area=true&area_color=F8BBD0" />
 
 </div>
 
@@ -213,9 +199,9 @@ using an LLM, reducing initial triage time.
      on a schedule, pulling from your Medium RSS feed automatically. -->
 
 <!-- BLOG-POST-LIST:START -->
-- [Designing for Failure: Lessons from Large-Scale Endpoint Migrations](https://medium.com/@MEDIUM-USERNAME)
-- [What Platform Engineering Actually Means Day-to-Day](https://medium.com/@MEDIUM-USERNAME)
-- [Where AI Actually Helps in Cloud Operations](https://medium.com/@MEDIUM-USERNAME)
+- [The Problem Nobody Talks About in Software Engineering](https://medium.com/@akanksha.raut.2662/the-problem-nobody-talks-about-in-software-engineering-96d0e7296ca8)
+- [https://medium.com/@akanksha.raut.2662/i-thought-building-an-ai-chatbot-was-about-choosing-a-better-model-i-was-wrong-82eff10c1a93](https://medium.com/@akanksha.raut.2662/i-thought-building-an-ai-chatbot-was-about-choosing-a-better-model-i-was-wrong-82eff10c1a93)
+- [Can we share information without giving away possession?](https://medium.com/@akanksha.raut.2662/data-capsule-can-we-share-information-without-giving-away-possession-76491d55c82e)
 <!-- BLOG-POST-LIST:END -->
 
 <br/>
@@ -246,7 +232,7 @@ using an LLM, reducing initial triage time.
      .github/workflows/snake.yml — see that file's header comment for
      one-time setup steps (Settings → Actions → enable "Read and write
      permissions"). It will render blank until the workflow has run once. -->
-<img src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" width="100%" />
+<img src="https://raw.githubusercontent.com/akanksharaut2662-rgb/akanksharaut2662-rgb/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" width="100%" />
 
 </div>
 
