@@ -69,13 +69,13 @@ reliability and repeatability matter as much as the initial build.
 I'm currently deepening my foundation in distributed systems and cloud
 architecture through a master's program, with a focus on:
 
-- ☁️ **Cloud infrastructure** — AWS and Azure, infrastructure as code, and
+- ☁️ **Cloud infrastructure** - AWS and Azure, infrastructure as code, and
   well-architected system design
-- 🧩 **Platform engineering** — building internal tools and workflows that
+- 🧩 **Platform engineering** - building internal tools and workflows that
   make deployment and operations faster and safer
-- 🤖 **Applied AI systems** — using AI where it solves a real operational
+- 🤖 **Applied AI systems** - using AI where it solves a real operational
   problem, not as a feature for its own sake
-- 🛠️ **Production reliability** — monitoring, incident response, and
+- 🛠️ **Production reliability** - monitoring, incident response, and
   systems designed to fail gracefully
 
 I care about building things that hold up after the demo - documented,
@@ -86,7 +86,7 @@ observable, and maintainable by someone other than me.
 
 <!-- Replace this illustration with your own asset in /assets if preferred.
      Any transparent-background SVG/PNG works well here. -->
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/cloud-computing/cloud-computing.png" width="90%" alt="Cloud illustration" />
+<img src="assets/architecture-illustration.png" width="90%" alt="Cloud illustration" />
 
 </td>
 </tr>
@@ -98,10 +98,10 @@ observable, and maintainable by someone other than me.
 ## 🎯 Current Focus
 
 - 🔭 Building small production-grade projects that mirror real cloud
-  architecture patterns — not tutorials, but systems with logging,
+  architecture patterns - not tutorials, but systems with logging,
   error handling, and deployment pipelines
 - 📚 Working toward an **AWS Certified Solutions Architect – Associate**
-- 🧠 Exploring how AI tooling fits into platform engineering workflows —
+- 🧠 Exploring how AI tooling fits into platform engineering workflows -
   from CI/CD assistance to intelligent operational alerting
 - 🤝 Open to conversations about **Cloud Engineering**, **Software Development**, **Platform
   Engineering**, and **DevOps/SRE** roles
