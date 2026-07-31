@@ -1,0 +1,47 @@
+# ==============================================================================
+# Contribution Snake Workflow
+# ==============================================================================
+# Generates an SVG animation of a "snake" eating your contribution graph,
+# referenced by README.md in the Contribution Snake section.
+#
+# ONE-TIME SETUP (do this after adding this file to YOUR-USERNAME/YOUR-USERNAME):
+#   1. Go to your repo → Settings → Actions → General → Workflow permissions
+#   2. Select "Read and write permissions"
+#   3. Save. Then go to the Actions tab and manually run "Generate Snake"
+#      once (or wait for the schedule below) to create the `output` branch.
+#   4. The README already points to:
+#      https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/output/github-contribution-grid-snake.svg
+#      — replace YOUR-USERNAME there if you haven't already.
+# ==============================================================================
+
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs daily at 00:00 UTC
+  workflow_dispatch:        # allows manual trigger from the Actions tab
+  push:
+    branches:
+      - main                # regenerate whenever you push to main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push output to "output" branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
