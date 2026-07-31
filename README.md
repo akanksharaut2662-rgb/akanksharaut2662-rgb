@@ -5,33 +5,25 @@
   This file powers your GitHub profile page (the special repo named exactly
   after your username, e.g. github.com/YOUR-USERNAME/YOUR-USERNAME).
 
-  BEFORE PUBLISHING, REPLACE THE FOLLOWING:
+  BANNER — LIGHT & DARK MODE:
   --------------------------------------------------------------------------
-  1. YOUR-USERNAME        → your GitHub username (appears in stats/snake URLs)
-  2. assets/banner.png    → already referenced below. Optionally add a
-                             assets/banner-dark.png for a true dark-mode
-                             banner (see the <picture> tag notes).
-  3. LINKEDIN-URL          → your LinkedIn profile URL
-  4. MEDIUM-USERNAME       → your Medium handle (for the RSS-based article feed)
-  5. YOUR-EMAIL             → your contact email
-  6. Featured Projects     → swap in your real repos, descriptions, and links
-  7. Tech Stack icons      → add/remove tools from the skillicons.dev query
+  Upload two images to your assets/ folder:
+    - assets/bannerlight.png   → shown when the visitor's GitHub is in light mode
+    - assets/bannerdark.png    → shown when the visitor's GitHub is in dark mode
+  The <picture> tag below switches between them automatically based on the
+  visitor's OS/browser theme preference — this is a real GitHub-supported
+  feature, not a hack. No filename changes needed beyond uploading the two
+  files with those exact names.
   --------------------------------------------------------------------------
-  This file is pure Markdown + embedded HTML, fully compatible with GitHub's
-  renderer. No build step required.
-================================================================================
 -->
 
 <div align="center">
 
 <!-- ============================ 1. BANNER ============================ -->
-<!-- Uses your uploaded assets/banner.png. If you later create a separate
-     dark-mode version, save it as assets/banner-dark.png and it will be
-     picked up automatically via prefers-color-scheme. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner.png">
-  <img src="assets/banner.png" alt="Profile banner" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/bannerdark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/bannerlight.png">
+  <img src="assets/bannerlight.png" alt="Profile banner" width="100%" />
 </picture>
 
 <br/>
@@ -133,10 +125,11 @@ observable, and maintainable by someone other than me.
 <!-- ======================== FEATURED PROJECTS ========================= -->
 ## 🚀 Featured Projects
 
-<!-- Replace each card below with your own repositories.
-     Keep the table structure — it renders as clean side-by-side cards. -->
+<!-- Add more cards later by copying a <td>...</td> block and adding it to
+     this row (or starting a new <tr> for a second row of cards). -->
 <table width="100%">
 <tr>
+<td width="50%" valign="top">
 
 ### 📦 Internal Developer Platform
 A lightweight internal developer platform providing self-service
@@ -149,8 +142,6 @@ environment provisioning and standardized service templates.
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🤖 AI-Assisted Ops Assistant - Dalbot
@@ -164,8 +155,7 @@ using an LLM, reducing initial triage time.
 </a>
 
 </td>
-<td width="50%" valign="top">
-
+</tr>
 </table>
 
 <br/>
@@ -185,7 +175,7 @@ using an LLM, reducing initial triage time.
 </div>
 
 <!-- If any stat card shows an error, GitHub's stats API is rate-limited or
-     the username is wrong — double-check YOUR-USERNAME above. -->
+     the username is wrong — double-check the username above. -->
 
 <br/>
 
@@ -200,8 +190,8 @@ using an LLM, reducing initial triage time.
 
 <!-- BLOG-POST-LIST:START -->
 - [The Problem Nobody Talks About in Software Engineering](https://medium.com/@akanksha.raut.2662/the-problem-nobody-talks-about-in-software-engineering-96d0e7296ca8)
-- [https://medium.com/@akanksha.raut.2662/i-thought-building-an-ai-chatbot-was-about-choosing-a-better-model-i-was-wrong-82eff10c1a93](https://medium.com/@akanksha.raut.2662/i-thought-building-an-ai-chatbot-was-about-choosing-a-better-model-i-was-wrong-82eff10c1a93)
-- [Can we share information without giving away possession?](https://medium.com/@akanksha.raut.2662/data-capsule-can-we-share-information-without-giving-away-possession-76491d55c82e)
+- [I Thought Building an AI Chatbot Was About Choosing a Better Model. I Was Wrong.](https://medium.com/@akanksha.raut.2662/i-thought-building-an-ai-chatbot-was-about-choosing-a-better-model-i-was-wrong-82eff10c1a93)
+- [Can We Share Information Without Giving Away Possession?](https://medium.com/@akanksha.raut.2662/data-capsule-can-we-share-information-without-giving-away-possession-76491d55c82e)
 <!-- BLOG-POST-LIST:END -->
 
 <br/>
@@ -211,7 +201,7 @@ using an LLM, reducing initial triage time.
 
 <div align="center">
 
-<a href="www.linkedin.com/in/akanksha-raut-3219aa185">
+<a href="https://www.linkedin.com/in/akanksha-raut-3219aa185/">
 <img src="https://img.shields.io/badge/LinkedIn-EF93C4?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://medium.com/@akanksha.raut.2662">
