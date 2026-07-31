@@ -53,7 +53,7 @@
 
 <img align="right" src="assets/architecture-illustration.png" width="320" alt="Cloud architecture illustration" />
 
-## About Me
+### About Me
 
 I work across the stack that sits between "code is written" and "code is
 reliably running in production" - cloud infrastructure, platform tooling,
