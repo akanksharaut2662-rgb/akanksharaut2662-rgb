@@ -50,9 +50,8 @@
 <br/>
 
 <!-- ========================== 6. ABOUT ME ============================= -->
-<table>
-<tr>
-<td width="65%" valign="top">
+
+<img align="right" src="assets/architecture-illustration.png" width="320" alt="Cloud architecture illustration" />
 
 ## About Me
 
@@ -81,18 +80,7 @@ architecture through a master's program, with a focus on:
 I care about building things that hold up after the demo - documented,
 observable, and maintainable by someone other than me.
 
-</td>
-<td width="35%" valign="top" align="center">
-
-<!-- Replace this illustration with your own asset in /assets if preferred.
-     Any transparent-background SVG/PNG works well here. -->
-<img src="assets/architecture-illustration.png" width="90%" alt="Cloud illustration" />
-
-</td>
-</tr>
-</table>
-
-<br/>
+<br clear="both"/>
 
 <!-- ======================== CURRENT FOCUS ============================= -->
 ## 🎯 Current Focus
